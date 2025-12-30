@@ -21,7 +21,7 @@ function Navbar() {
         id="navbarNav"
         style={{ float: "left" }}
         >
-            <ul className="navbar-nav ml-auto" style={{ color: "#ffffff" }}>
+            <ul className="navbar-nav ml-auto" style={{ color: "#e50c0cff" }}>
                 <li className="nav-item">
                 <NavLink to={"/"} className="nav-link">
                     Home
@@ -30,6 +30,12 @@ function Navbar() {
                 <li className="nav-item">
                 <NavLink to={"/aboutus"} className="nav-link">
                     About us
+                </NavLink>
+                </li>
+                
+                <li className="nav-item">
+                <NavLink to={"/blog/posts"} className="nav-link">
+                    Blogs
                 </NavLink>
                 </li>
             </ul>

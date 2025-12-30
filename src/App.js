@@ -19,8 +19,7 @@ function App() {
   }
   return (
     <>
-      
-    {/* <Navbar/>
+    <Navbar/>
     <div className='container'>
       <h1>
         Home Page
@@ -47,7 +46,7 @@ function App() {
         setLoading(false);
         }}>Click Me</button>
       <p>{Num}</p>
-    </div> */}
+    </div>
     </>
     
   );
