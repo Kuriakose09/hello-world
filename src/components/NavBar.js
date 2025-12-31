@@ -23,7 +23,7 @@ function Navbar() {
         >
             <ul className="navbar-nav ml-auto" style={{ color: "#e50c0cff" }}>
                 <li className="nav-item">
-                <NavLink to={"/"} className="nav-link">
+                <NavLink to={"/home"} className="nav-link">
                     Home
                 </NavLink>
                 </li>
